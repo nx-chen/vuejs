@@ -1,10 +1,37 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <b-navbar id="main_navbar" type="dark" variant="dark">
+      <b-navbar-nav>
+        <b-nav-item>
+          <router-link to="/">Home</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Tab">Tab</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Modal">Modal</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Dropdown">Dropdown</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Table">Table</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Progress">Progress</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Breadcrumb">Breadcrumb</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Navbar">Navbar</router-link>
+        </b-nav-item>
+        <b-nav-item>
+          <router-link to="/Skeleton">Skeleton</router-link>
+        </b-nav-item>
+      </b-navbar-nav>
+    </b-navbar>
+    <router-view />
   </div>
 </template>
 
@@ -14,7 +41,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #687077;
 }
 
 nav {
@@ -22,11 +49,20 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #a9d9f0;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #0d3957;
     }
   }
+}
+
+#main_navbar {
+  background-color: cadetblue !important;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  padding: 0px 5px 0px 5px
 }
 </style>

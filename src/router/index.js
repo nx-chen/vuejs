@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import TabView from '../views/TabView.vue'
 import HomeView from '../views/HomeView.vue'
 
 Vue.use(VueRouter)
@@ -7,16 +8,48 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'home',
+    name: 'Home',
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    path: '/Tab',
+    name: 'Tab',
+    component: TabView
+  },
+  {
+    path: '/Modal',
+    name: 'Modal',
+    component: TabView
+  },
+  {
+    path: '/Dropdown',
+    name: 'Dropdown',
+    component: TabView
+  },
+  {
+    path: '/Table',
+    name: 'Table',
+    component: TabView
+  },
+  {
+    path: '/Progress',
+    name: 'Progress',
+    component: TabView
+  },
+  {
+    path: '/Breadcrumb',
+    name: 'Breadcrumb',
+    component: TabView
+  },
+  {
+    path: '/Navbar',
+    name: 'Navbar',
+    component: TabView
+  },
+  {
+    path: '/Skeleton',
+    name: 'Skeleton',
+    component: TabView
   }
 ]
 
