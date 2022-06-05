@@ -15,9 +15,3 @@ export default {
   }
 }
 </script>
-
-<style lang="less">
-#bodyTab {
-  padding: 20px 150px 20px 150px;
-}
-</style>

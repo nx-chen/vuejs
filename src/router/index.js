@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import TabView from '../views/TabView.vue'
 import HomeView from '../views/HomeView.vue'
+import ModalView from '../views/ModalView.vue'
 
 Vue.use(VueRouter)
 
@@ -19,7 +20,7 @@ const routes = [
   {
     path: '/Modal',
     name: 'Modal',
-    component: TabView
+    component: ModalView
   },
   {
     path: '/Dropdown',

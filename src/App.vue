@@ -31,7 +31,9 @@
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
-    <router-view />
+    <div id="MainBody">
+      <router-view />
+    </div>
   </div>
 </template>
 
@@ -65,4 +67,9 @@ nav {
 .nav-item {
   padding: 0px 5px 0px 5px
 }
+
+#MainBody {
+  padding: 20px 150px 20px 150px;
+}
+
 </style>
