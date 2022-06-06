@@ -3,6 +3,9 @@ import VueRouter from 'vue-router'
 import TabView from '../views/TabView.vue'
 import HomeView from '../views/HomeView.vue'
 import ModalView from '../views/ModalView.vue'
+import DropdownView from '../views/DropdownView.vue'
+import TableView from '../views/TableView.vue'
+import ProgressView from '../views/ProgressView.vue'
 
 Vue.use(VueRouter)
 
@@ -25,17 +28,17 @@ const routes = [
   {
     path: '/Dropdown',
     name: 'Dropdown',
-    component: TabView
+    component: DropdownView
   },
   {
     path: '/Table',
     name: 'Table',
-    component: TabView
+    component: TableView
   },
   {
     path: '/Progress',
     name: 'Progress',
-    component: TabView
+    component: ProgressView
   },
   {
     path: '/Breadcrumb',

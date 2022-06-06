@@ -1,5 +1,6 @@
 <template>
   <div>
+    <b>tab is on your right side :)</b>
     <b-tabs card end vertical align content-class="mt-3">
       <b-tab class="tab_item" title="First" active><p>I'm the first tab</p></b-tab>
       <b-tab class="tab_item" title="Second"><p>I'm the second tab</p></b-tab>

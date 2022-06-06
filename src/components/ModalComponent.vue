@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <b-button size="lg" v-b-modal.modal>Launch demo modal</b-button>
+    <b-button size="lg" v-b-modal.modal>Launch modal</b-button>
 
     <b-modal id="modal" title="ModalBody" centered hide-header hide-footer>
       <p class="my-4">Hello from modal!</p>
