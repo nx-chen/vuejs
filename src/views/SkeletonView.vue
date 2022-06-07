@@ -11,9 +11,10 @@
     <b-skeleton-wrapper :loading="loading">
       <template #loading>
         <b-card>
-          <b-skeleton width="85%"></b-skeleton>
-          <b-skeleton width="55%"></b-skeleton>
-          <b-skeleton width="70%"></b-skeleton>
+          <b-skeleton height="20px" width="85%" variant='dark' animation="wave"></b-skeleton>
+          <b-skeleton height="20px" width="55%" variant='info' animation="fade"></b-skeleton>
+          <b-skeleton height="20px" width="70%" variant='success' animation="throb"></b-skeleton>
+          <b-skeleton height="20px" width="90%" variant="warning" animation="None"></b-skeleton>
         </b-card>
       </template>
 
