@@ -15,7 +15,3 @@ export default {
   name: 'ModalComponent'
 }
 </script>
-
-<style lang="less">
-
-</style>

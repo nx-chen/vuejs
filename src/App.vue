@@ -69,7 +69,7 @@ nav {
 }
 
 #MainBody {
-  padding: 20px 150px 20px 150px;
+  padding: 30px 300px 20px 300px;
 }
 
 </style>
